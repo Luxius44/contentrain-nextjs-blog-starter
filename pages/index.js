@@ -1,36 +1,30 @@
-import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
-import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
-import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
   const morePosts = allPosts.slice(1)
   return (
     <>
-      <Layout>
-        <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
-        </Head>
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              createdAt={heroPost.createdAt}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              description={heroPost.description}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout>
+      <div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="#us">About Us</a>
+          <a href="/admin">Go to Admin Section</a>
+        </nav>
+        <div>
+            <h1>Title</h1>
+            <div id="us" class="images">
+                <img src="1489697998-sardoche-copie.jpg"></img>
+                <img src="1489697998-sardoche-copie.jpg"></img>
+                <img src="1489697998-sardoche-copie.jpg"></img>
+                <img src="1489697998-sardoche-copie.jpg"></img>
+            </div>
+        </div>
+      <footer>
+          <p>This is a demo of "".</p>
+      </footer>
+      </div>
     </>
   )
 }

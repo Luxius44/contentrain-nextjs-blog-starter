@@ -1,3 +1,28 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.images {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    margin: 25px auto 25px auto;
+    justify-content: center;
+}
+
+.images img{
+    width: 100px;
+}
