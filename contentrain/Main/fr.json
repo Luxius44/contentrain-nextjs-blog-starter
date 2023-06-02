@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "15203c7d-3e46-4a48-b841-3a17331b7617",
+    "navbarTitle1": "Home",
+    "navbarTitle2": "About Us",
+    "navbarTitle3": "Go to Admin Section",
+    "Title": "Title - Contentrain",
+    "Image1": "public/assets/1685712569137_1607125698le-dragon-a-trois-tetes-among-us.jpg",
+    "Image2": "public/assets/1685712572178_055f6c64c40c177afa2f4daf70f1798a.jpg",
+    "Image3": "public/assets/1685712573675_1c4913ff325b5c310e523f06140d4abe.jpg",
+    "Image4": "public/assets/1685712575213_5921b95165e9bb93eb4211ac5abe2d98.jpg",
+    "Text": "<p>Je suis entrain de test Contentrain. Je trouve que c'est pas non plus le meilleur Cms pour travailler en local car les changements son directement fais sur le git. Donc on est obliger de faire le git pull pour pouvoir voir les modifications; Et je trouve ca dommage que le panel admin est sur le site de contentrain et non sur le site du client. Sinon c'est assez facile d'utilisation; La création des json ce fais sur le site et est assez intuitive. </p>",
+    "Footer": "This is a demo of Contentrain",
+    "createdAt": 1685712683758
+  }
+]
